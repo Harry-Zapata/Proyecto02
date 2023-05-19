@@ -11,14 +11,14 @@
   <title>Results summary component</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="container">
-    <div class="result">
-      <h3>Your Result</h3>
+  <main>
+    <div class="card-header">
+      <h1>Your Result</h1>
       <div class="circle">
         <h4>76</h4>
         <span>of 100</span>
@@ -26,16 +26,16 @@
       <h2>Great</h2>
       <p>You scored higher than 65% of the people who have taken these tests.</p>
     </div>
-    <div class="summary">
+    <div class="card-body">
       <h2>Summary</h2>
       <div id="json">
 
       </div>
-      <div class="content__btn">
-        <button class="btn">Continue</button>
+      <div class="btn">
+        <button>Continue</button>
       </div>
     </div>
-  </div>
+  </main>
   <script src="./main.js"></script>
 </body>
 
